@@ -60,4 +60,4 @@ group is highlighted in the UI.
 
 #### Preview
 
-[!preview](/readme_assets/preview.png)
+![preview](/readme_assets/preview.png)
