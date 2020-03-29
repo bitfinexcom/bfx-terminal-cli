@@ -1,0 +1,64 @@
+{
+  "name": "bfx-terminal-cli",
+  "version": "1.0.0",
+  "description": "Bitfinex Trading Terminal for the CLI",
+  "main": "index.js",
+  "engines": {
+    "node": ">=8.3.0"
+  },
+  "bin": {
+    "bfx-terminal-cli": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bitfinexcom/bfx-terminal-cli.git"
+  },
+  "keywords": [
+    "vth",
+    "bitfinex",
+    "telegram",
+    "bot"
+  ],
+  "author": "Cris Mihalache <cris.m@bitfinex.com> (https://www.bitfinex.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bitfinexcom/bfx-terminal-cli/issues"
+  },
+  "homepage": "https://github.com/bitfinexcom/bfx-terminal-cli#readme",
+  "dependencies": {
+    "bfx-api-node-models": "^1.2.2",
+    "bfx-api-node-rest": "^3.0.9",
+    "bfx-api-node-util": "^1.0.8",
+    "bfx-hf-indicators": "^2.0.3",
+    "bfx-hf-util": "^1.0.6",
+    "bitfinex-api-node": "^4.0.13",
+    "blessed": "^0.1.81",
+    "blessed-contrib": "^4.8.19",
+    "bluebird": "^3.7.2",
+    "colors": "^1.4.0",
+    "columnify": "^1.5.4",
+    "dotenv": "^8.2.0",
+    "lodash": "^4.17.15",
+    "moment": "^2.24.0",
+    "node-notifier": "^6.0.0",
+    "p-iteration": "^1.1.8",
+    "parse-duration": "^0.1.2",
+    "signale": "^1.4.0",
+    "sprintf-js": "^1.1.2",
+    "yargs": "^15.3.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-jsdoc": "^22.1.0",
+    "eslint-plugin-lodash": "^6.0.0",
+    "eslint-plugin-mocha": "^6.3.0",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1"
+  }
+}
