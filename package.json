@@ -11,6 +11,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint lib/ index.js",
     "docs": "rm -rf docs && node_modules/.bin/jsdoc --configure .jsdoc.json --verbose"
   },
   "repository": {
