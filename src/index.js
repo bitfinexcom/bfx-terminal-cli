@@ -9,7 +9,7 @@ const Promise = require('bluebird')
 Promise.config({ cancellation: true })
 
 const yArgs = require('yargs/yargs')
-const commands = require('./lib/exec_commands')
+const commands = require('./exec_commands')
 
 const y = yArgs(process.argv.slice(2))
   .scriptName('vth-bfx-tg-bot')

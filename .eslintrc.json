@@ -1,7 +1,16 @@
 {
+  "parser": "babel-eslint",
+
   "plugins": [
+    "flowtype",
     "jsdoc"
   ],
+
+  "settings": {
+    "flowtype": {
+      "onlyFilesWithFlowAnnotation": true
+    }
+  },
 
   "env": {
     "es6": true,
@@ -18,7 +27,8 @@
     "plugin:import/warnings",
     "plugin:lodash/recommended",
     "plugin:mocha/recommended",
-    "plugin:jsdoc/recommended"
+    "plugin:jsdoc/recommended",
+    "plugin:flowtype/recommended"
   ],
 
   "parserOptions": {
@@ -37,6 +47,11 @@
     "mocha/no-mocha-arrows": 0,
     "mocha/no-hooks-for-single-case": 0,
     "mocha/no-setup-in-describe": 0,
-    "mocha/no-skipped-tests": 0
+    "mocha/no-skipped-tests": 0,
+    "node/shebang": ["error", {
+      "convertPath": {
+        "src/**/*.js": ["^src/(.+?)\\.js$", "lib/$1.js"]
+      }
+    }]
   }
 }

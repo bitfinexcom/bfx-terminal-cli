@@ -1,8 +1,9 @@
 'use strict'
+// @flow
 
-let last = Date.now()
+let last: number = Date.now()
 
-module.exports = () => {
+module.exports = (): number => {
   const now = Date.now()
   last = (last < now) ? now : last + 1
   return last
