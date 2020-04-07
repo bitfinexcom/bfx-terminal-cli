@@ -2,15 +2,8 @@
   "parser": "babel-eslint",
 
   "plugins": [
-    "flowtype",
     "jsdoc"
   ],
-
-  "settings": {
-    "flowtype": {
-      "onlyFilesWithFlowAnnotation": true
-    }
-  },
 
   "env": {
     "es6": true,
@@ -27,8 +20,7 @@
     "plugin:import/warnings",
     "plugin:lodash/recommended",
     "plugin:mocha/recommended",
-    "plugin:jsdoc/recommended",
-    "plugin:flowtype/recommended"
+    "plugin:jsdoc/recommended"
   ],
 
   "parserOptions": {

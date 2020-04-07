@@ -15,7 +15,6 @@
     "@babel/plugin-proposal-class-properties",
     "@babel/plugin-proposal-throw-expressions",
     "@babel/plugin-proposal-private-methods",
-    "@babel/plugin-transform-flow-comments",
     "@babel/plugin-proposal-logical-assignment-operators"
   ]
 }
