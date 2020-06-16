@@ -1,0 +1,888 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="utf-8">
+    <title>terminal/index.js - Documentation</title>
+    
+    
+    <script src="scripts/prettify/prettify.js"></script>
+    <script src="scripts/prettify/lang-css.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="styles/prettify.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc.css">
+    <script src="scripts/nav.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<input type="checkbox" id="nav-trigger" class="nav-trigger" />
+<label for="nav-trigger" class="navicon-button x">
+  <div class="navicon"></div>
+</label>
+
+<label for="nav-trigger" class="overlay"></label>
+
+<nav >
+    
+    <input type="text" id="nav-search" placeholder="Search" />
+    
+    <h2><a href="index.html">Home</a></h2><h3>Classes</h3><ul><li><a href="AsyncEventEmitter.html">AsyncEventEmitter</a><ul class='methods'><li data-type='method'><a href="AsyncEventEmitter.html#emit">emit</a></li><li data-type='method'><a href="AsyncEventEmitter.html#off">off</a></li><li data-type='method'><a href="AsyncEventEmitter.html#on">on</a></li><li data-type='method'><a href="AsyncEventEmitter.html#onAll">onAll</a></li><li data-type='method'><a href="AsyncEventEmitter.html#onAllOnce">onAllOnce</a></li><li data-type='method'><a href="AsyncEventEmitter.html#once">once</a></li><li data-type='method'><a href="AsyncEventEmitter.html#removeAllListeners">removeAllListeners</a></li></ul></li><li><a href="CandlesDataPlugin.html">CandlesDataPlugin</a><ul class='methods'><li data-type='method'><a href="CandlesDataPlugin.html#emit">emit</a></li><li data-type='method'><a href="CandlesDataPlugin.html#getCandleData">getCandleData</a></li><li data-type='method'><a href="CandlesDataPlugin.html#getColoredID">getColoredID</a></li><li data-type='method'><a href="CandlesDataPlugin.html#getHost">getHost</a></li><li data-type='method'><a href="CandlesDataPlugin.html#getID">getID</a></li><li data-type='method'><a href="CandlesDataPlugin.html#getProvidedHooks">getProvidedHooks</a></li><li data-type='method'><a href="CandlesDataPlugin.html#getRequiredHooks">getRequiredHooks</a></li><li data-type='method'><a href="CandlesDataPlugin.html#getRequiredModules">getRequiredModules</a></li><li data-type='method'><a href="CandlesDataPlugin.html#getSymbol">getSymbol</a></li><li data-type='method'><a href="CandlesDataPlugin.html#getTerminal">getTerminal</a></li><li data-type='method'><a href="CandlesDataPlugin.html#isUnique">isUnique</a></li><li data-type='method'><a href="CandlesDataPlugin.html#logDuration">logDuration</a></li><li data-type='method'><a href="CandlesDataPlugin.html#on">on</a></li><li data-type='method'><a href="CandlesDataPlugin.html#render">render</a></li></ul></li><li><a href="ErrorHandlerSelfTestError.html">ErrorHandlerSelfTestError</a></li><li><a href="InternalLogWidget.html">InternalLogWidget</a><ul class='methods'><li data-type='method'><a href="InternalLogWidget.html#onHostError">onHostError</a></li><li data-type='method'><a href="InternalLogWidget.html#onTerminalDebugLog">onTerminalDebugLog</a></li><li data-type='method'><a href="InternalLogWidget.html#onTerminalDebugLogClearLastLine">onTerminalDebugLogClearLastLine</a></li><li data-type='method'><a href="InternalLogWidget.html#onWSError">onWSError</a></li></ul></li><li><a href="LoggerPlugin.html">LoggerPlugin</a><ul class='methods'><li data-type='method'><a href="LoggerPlugin.html#clearLogOutput">clearLogOutput</a></li><li data-type='method'><a href="LoggerPlugin.html#emit">emit</a></li><li data-type='method'><a href="LoggerPlugin.html#getColoredID">getColoredID</a></li><li data-type='method'><a href="LoggerPlugin.html#getHost">getHost</a></li><li data-type='method'><a href="LoggerPlugin.html#getID">getID</a></li><li data-type='method'><a href="LoggerPlugin.html#getProvidedHooks">getProvidedHooks</a></li><li data-type='method'><a href="LoggerPlugin.html#getRequiredHooks">getRequiredHooks</a></li><li data-type='method'><a href="LoggerPlugin.html#getRequiredModules">getRequiredModules</a></li><li data-type='method'><a href="LoggerPlugin.html#getSymbol">getSymbol</a></li><li data-type='method'><a href="LoggerPlugin.html#getTerminal">getTerminal</a></li><li data-type='method'><a href="LoggerPlugin.html#isUnique">isUnique</a></li><li data-type='method'><a href="LoggerPlugin.html#logDebugClearLastLine">logDebugClearLastLine</a></li><li data-type='method'><a href="LoggerPlugin.html#logDuration">logDuration</a></li><li data-type='method'><a href="LoggerPlugin.html#logOutput">logOutput</a></li><li data-type='method'><a href="LoggerPlugin.html#on">on</a></li><li data-type='method'><a href="LoggerPlugin.html#render">render</a></li></ul></li><li><a href="MarginInfoDataPlugin.html">MarginInfoDataPlugin</a><ul class='methods'><li data-type='method'><a href="MarginInfoDataPlugin.html#emit">emit</a></li><li data-type='method'><a href="MarginInfoDataPlugin.html#getColoredID">getColoredID</a></li><li data-type='method'><a href="MarginInfoDataPlugin.html#getHost">getHost</a></li><li data-type='method'><a href="MarginInfoDataPlugin.html#getID">getID</a></li><li data-type='method'><a href="MarginInfoDataPlugin.html#getMarginInfo">getMarginInfo</a></li><li data-type='method'><a href="MarginInfoDataPlugin.html#getProvidedHooks">getProvidedHooks</a></li><li data-type='method'><a href="MarginInfoDataPlugin.html#getRequiredHooks">getRequiredHooks</a></li><li data-type='method'><a href="MarginInfoDataPlugin.html#getRequiredModules">getRequiredModules</a></li><li data-type='method'><a href="MarginInfoDataPlugin.html#getSymbol">getSymbol</a></li><li data-type='method'><a href="MarginInfoDataPlugin.html#getTerminal">getTerminal</a></li><li data-type='method'><a href="MarginInfoDataPlugin.html#isUnique">isUnique</a></li><li data-type='method'><a href="MarginInfoDataPlugin.html#logDuration">logDuration</a></li><li data-type='method'><a href="MarginInfoDataPlugin.html#on">on</a></li><li data-type='method'><a href="MarginInfoDataPlugin.html#render">render</a></li></ul></li><li><a href="MarketInfoDataPlugin.html">MarketInfoDataPlugin</a><ul class='methods'><li data-type='method'><a href="MarketInfoDataPlugin.html#emit">emit</a></li><li data-type='method'><a href="MarketInfoDataPlugin.html#getColoredID">getColoredID</a></li><li data-type='method'><a href="MarketInfoDataPlugin.html#getHost">getHost</a></li><li data-type='method'><a href="MarketInfoDataPlugin.html#getID">getID</a></li><li data-type='method'><a href="MarketInfoDataPlugin.html#getMarketInfo">getMarketInfo</a></li><li data-type='method'><a href="MarketInfoDataPlugin.html#getProvidedHooks">getProvidedHooks</a></li><li data-type='method'><a href="MarketInfoDataPlugin.html#getRequiredHooks">getRequiredHooks</a></li><li data-type='method'><a href="MarketInfoDataPlugin.html#getRequiredModules">getRequiredModules</a></li><li data-type='method'><a href="MarketInfoDataPlugin.html#getSymbol">getSymbol</a></li><li data-type='method'><a href="MarketInfoDataPlugin.html#getTerminal">getTerminal</a></li><li data-type='method'><a href="MarketInfoDataPlugin.html#isUnique">isUnique</a></li><li data-type='method'><a href="MarketInfoDataPlugin.html#logDuration">logDuration</a></li><li data-type='method'><a href="MarketInfoDataPlugin.html#on">on</a></li><li data-type='method'><a href="MarketInfoDataPlugin.html#render">render</a></li></ul></li><li><a href="Module.html">Module</a><ul class='methods'><li data-type='method'><a href="Module.html#emit">emit</a></li><li data-type='method'><a href="Module.html#getColoredID">getColoredID</a></li><li data-type='method'><a href="Module.html#getHost">getHost</a></li><li data-type='method'><a href="Module.html#getID">getID</a></li><li data-type='method'><a href="Module.html#getProvidedHooks">getProvidedHooks</a></li><li data-type='method'><a href="Module.html#getRequiredHooks">getRequiredHooks</a></li><li data-type='method'><a href="Module.html#getRequiredModules">getRequiredModules</a></li><li data-type='method'><a href="Module.html#getSymbol">getSymbol</a></li><li data-type='method'><a href="Module.html#getTerminal">getTerminal</a></li><li data-type='method'><a href="Module.html#isUnique">isUnique</a></li><li data-type='method'><a href="Module.html#logDuration">logDuration</a></li><li data-type='method'><a href="Module.html#on">on</a></li><li data-type='method'><a href="Module.html#render">render</a></li></ul></li><li><a href="ModuleAddError.html">ModuleAddError</a></li><li><a href="ModuleHost.html">ModuleHost</a><ul class='members'><li data-type='member'><a href="ModuleHost.html#.HOST_PROVIDED_HOOKS">HOST_PROVIDED_HOOKS</a></li><li data-type='member'><a href="ModuleHost.html#.HOST_REQUIRED_MODULES">HOST_REQUIRED_MODULES</a></li></ul><ul class='methods'><li data-type='method'><a href="ModuleHost.html#.logDuration">logDuration</a></li><li data-type='method'><a href="ModuleHost.html#addModule">addModule</a></li><li data-type='method'><a href="ModuleHost.html#boot">boot</a></li><li data-type='method'><a href="ModuleHost.html#emit">emit</a></li><li data-type='method'><a href="ModuleHost.html#getAllModuleIDs">getAllModuleIDs</a></li><li data-type='method'><a href="ModuleHost.html#getAllProvidedHooks">getAllProvidedHooks</a></li><li data-type='method'><a href="ModuleHost.html#getModuleProvidedHooks">getModuleProvidedHooks</a></li><li data-type='method'><a href="ModuleHost.html#getModules">getModules</a></li><li data-type='method'><a href="ModuleHost.html#getTerminal">getTerminal</a></li><li data-type='method'><a href="ModuleHost.html#isBooted">isBooted</a></li><li data-type='method'><a href="ModuleHost.html#off">off</a></li><li data-type='method'><a href="ModuleHost.html#on">on</a></li><li data-type='method'><a href="ModuleHost.html#onAll">onAll</a></li><li data-type='method'><a href="ModuleHost.html#onAllOnce">onAllOnce</a></li><li data-type='method'><a href="ModuleHost.html#once">once</a></li><li data-type='method'><a href="ModuleHost.html#removeAllListeners">removeAllListeners</a></li><li data-type='method'><a href="ModuleHost.html#validateHostRequirements">validateHostRequirements</a></li><li data-type='method'><a href="ModuleHost.html#validateModuleRequirements">validateModuleRequirements</a></li></ul></li><li><a href="ModuleHostBootError.html">ModuleHostBootError</a></li><li><a href="ModuleHostValidationError.html">ModuleHostValidationError</a></li><li><a href="NotificationsPlugin.html">NotificationsPlugin</a><ul class='methods'><li data-type='method'><a href="NotificationsPlugin.html#getNotificationsEnabled">getNotificationsEnabled</a></li><li data-type='method'><a href="NotificationsPlugin.html#notify">notify</a></li><li data-type='method'><a href="NotificationsPlugin.html#notifyError">notifyError</a></li><li data-type='method'><a href="NotificationsPlugin.html#notifySuccess">notifySuccess</a></li><li data-type='method'><a href="NotificationsPlugin.html#setNotificationsEnabled">setNotificationsEnabled</a></li></ul></li><li><a href="OrderBooksDataPlugin.html">OrderBooksDataPlugin</a></li><li><a href="OrdersDataPlugin.html">OrdersDataPlugin</a><ul class='methods'><li data-type='method'><a href="OrdersDataPlugin.html#emit">emit</a></li><li data-type='method'><a href="OrdersDataPlugin.html#getColoredID">getColoredID</a></li><li data-type='method'><a href="OrdersDataPlugin.html#getHost">getHost</a></li><li data-type='method'><a href="OrdersDataPlugin.html#getID">getID</a></li><li data-type='method'><a href="OrdersDataPlugin.html#getProvidedHooks">getProvidedHooks</a></li><li data-type='method'><a href="OrdersDataPlugin.html#getRequiredHooks">getRequiredHooks</a></li><li data-type='method'><a href="OrdersDataPlugin.html#getRequiredModules">getRequiredModules</a></li><li data-type='method'><a href="OrdersDataPlugin.html#getSymbol">getSymbol</a></li><li data-type='method'><a href="OrdersDataPlugin.html#getTerminal">getTerminal</a></li><li data-type='method'><a href="OrdersDataPlugin.html#isUnique">isUnique</a></li><li data-type='method'><a href="OrdersDataPlugin.html#logDuration">logDuration</a></li><li data-type='method'><a href="OrdersDataPlugin.html#on">on</a></li><li data-type='method'><a href="OrdersDataPlugin.html#render">render</a></li></ul></li><li><a href="Plugin.html">Plugin</a><ul class='methods'><li data-type='method'><a href="Plugin.html#emit">emit</a></li><li data-type='method'><a href="Plugin.html#getColoredID">getColoredID</a></li><li data-type='method'><a href="Plugin.html#getHost">getHost</a></li><li data-type='method'><a href="Plugin.html#getID">getID</a></li><li data-type='method'><a href="Plugin.html#getProvidedHooks">getProvidedHooks</a></li><li data-type='method'><a href="Plugin.html#getRequiredHooks">getRequiredHooks</a></li><li data-type='method'><a href="Plugin.html#getRequiredModules">getRequiredModules</a></li><li data-type='method'><a href="Plugin.html#getSymbol">getSymbol</a></li><li data-type='method'><a href="Plugin.html#getTerminal">getTerminal</a></li><li data-type='method'><a href="Plugin.html#isUnique">isUnique</a></li><li data-type='method'><a href="Plugin.html#logDuration">logDuration</a></li><li data-type='method'><a href="Plugin.html#on">on</a></li><li data-type='method'><a href="Plugin.html#render">render</a></li></ul></li><li><a href="PositionsDataPlugin.html">PositionsDataPlugin</a><ul class='methods'><li data-type='method'><a href="PositionsDataPlugin.html#emit">emit</a></li><li data-type='method'><a href="PositionsDataPlugin.html#getColoredID">getColoredID</a></li><li data-type='method'><a href="PositionsDataPlugin.html#getHost">getHost</a></li><li data-type='method'><a href="PositionsDataPlugin.html#getID">getID</a></li><li data-type='method'><a href="PositionsDataPlugin.html#getProvidedHooks">getProvidedHooks</a></li><li data-type='method'><a href="PositionsDataPlugin.html#getRequiredHooks">getRequiredHooks</a></li><li data-type='method'><a href="PositionsDataPlugin.html#getRequiredModules">getRequiredModules</a></li><li data-type='method'><a href="PositionsDataPlugin.html#getSymbol">getSymbol</a></li><li data-type='method'><a href="PositionsDataPlugin.html#getTerminal">getTerminal</a></li><li data-type='method'><a href="PositionsDataPlugin.html#isUnique">isUnique</a></li><li data-type='method'><a href="PositionsDataPlugin.html#logDuration">logDuration</a></li><li data-type='method'><a href="PositionsDataPlugin.html#on">on</a></li><li data-type='method'><a href="PositionsDataPlugin.html#render">render</a></li></ul></li><li><a href="PublicTradeLogWidget.html">PublicTradeLogWidget</a></li><li><a href="SettingsPlugin.html">SettingsPlugin</a><ul class='methods'><li data-type='method'><a href="SettingsPlugin.html#clearSettings">clearSettings</a></li><li data-type='method'><a href="SettingsPlugin.html#defineSetting">defineSetting</a></li><li data-type='method'><a href="SettingsPlugin.html#getSetting">getSetting</a></li><li data-type='method'><a href="SettingsPlugin.html#listSettings">listSettings</a></li><li data-type='method'><a href="SettingsPlugin.html#notifyListeners">notifyListeners</a></li><li data-type='method'><a href="SettingsPlugin.html#removeSetting">removeSetting</a></li><li data-type='method'><a href="SettingsPlugin.html#setSetting">setSetting</a></li><li data-type='method'><a href="SettingsPlugin.html#subscribeSetting">subscribeSetting</a></li><li data-type='method'><a href="SettingsPlugin.html#unsubscribeSetting">unsubscribeSetting</a></li><li data-type='method'><a href="SettingsPlugin.html#validate">validate</a></li></ul></li><li><a href="Terminal.html">Terminal</a><ul class='methods'><li data-type='method'><a href="Terminal.html#notifyImportant">notifyImportant</a></li><li data-type='method'><a href="Terminal.html#onBoot">onBoot</a></li><li data-type='method'><a href="Terminal.html#render">render</a></li></ul></li><li><a href="TradeGroupSizeAlertsPlugin.html">TradeGroupSizeAlertsPlugin</a><ul class='methods'><li data-type='method'><a href="TradeGroupSizeAlertsPlugin.html#emit">emit</a></li><li data-type='method'><a href="TradeGroupSizeAlertsPlugin.html#getColoredID">getColoredID</a></li><li data-type='method'><a href="TradeGroupSizeAlertsPlugin.html#getGroupSizeAlertThreshold">getGroupSizeAlertThreshold</a></li><li data-type='method'><a href="TradeGroupSizeAlertsPlugin.html#getHost">getHost</a></li><li data-type='method'><a href="TradeGroupSizeAlertsPlugin.html#getID">getID</a></li><li data-type='method'><a href="TradeGroupSizeAlertsPlugin.html#getProvidedHooks">getProvidedHooks</a></li><li data-type='method'><a href="TradeGroupSizeAlertsPlugin.html#getRequiredHooks">getRequiredHooks</a></li><li data-type='method'><a href="TradeGroupSizeAlertsPlugin.html#getRequiredModules">getRequiredModules</a></li><li data-type='method'><a href="TradeGroupSizeAlertsPlugin.html#getSymbol">getSymbol</a></li><li data-type='method'><a href="TradeGroupSizeAlertsPlugin.html#getTerminal">getTerminal</a></li><li data-type='method'><a href="TradeGroupSizeAlertsPlugin.html#isUnique">isUnique</a></li><li data-type='method'><a href="TradeGroupSizeAlertsPlugin.html#logDuration">logDuration</a></li><li data-type='method'><a href="TradeGroupSizeAlertsPlugin.html#on">on</a></li><li data-type='method'><a href="TradeGroupSizeAlertsPlugin.html#render">render</a></li><li data-type='method'><a href="TradeGroupSizeAlertsPlugin.html#setTradeGroupSizeAlertThreshold">setTradeGroupSizeAlertThreshold</a></li></ul></li><li><a href="TradeGroupsPlugin.html">TradeGroupsPlugin</a><ul class='methods'><li data-type='method'><a href="TradeGroupsPlugin.html#emit">emit</a></li><li data-type='method'><a href="TradeGroupsPlugin.html#getColoredID">getColoredID</a></li><li data-type='method'><a href="TradeGroupsPlugin.html#getHost">getHost</a></li><li data-type='method'><a href="TradeGroupsPlugin.html#getID">getID</a></li><li data-type='method'><a href="TradeGroupsPlugin.html#getProvidedHooks">getProvidedHooks</a></li><li data-type='method'><a href="TradeGroupsPlugin.html#getRequiredHooks">getRequiredHooks</a></li><li data-type='method'><a href="TradeGroupsPlugin.html#getRequiredModules">getRequiredModules</a></li><li data-type='method'><a href="TradeGroupsPlugin.html#getSymbol">getSymbol</a></li><li data-type='method'><a href="TradeGroupsPlugin.html#getTerminal">getTerminal</a></li><li data-type='method'><a href="TradeGroupsPlugin.html#isUnique">isUnique</a></li><li data-type='method'><a href="TradeGroupsPlugin.html#logDuration">logDuration</a></li><li data-type='method'><a href="TradeGroupsPlugin.html#on">on</a></li><li data-type='method'><a href="TradeGroupsPlugin.html#render">render</a></li></ul></li><li><a href="TradesDataPlugin.html">TradesDataPlugin</a><ul class='methods'><li data-type='method'><a href="TradesDataPlugin.html#emit">emit</a></li><li data-type='method'><a href="TradesDataPlugin.html#getColoredID">getColoredID</a></li><li data-type='method'><a href="TradesDataPlugin.html#getHost">getHost</a></li><li data-type='method'><a href="TradesDataPlugin.html#getID">getID</a></li><li data-type='method'><a href="TradesDataPlugin.html#getProvidedHooks">getProvidedHooks</a></li><li data-type='method'><a href="TradesDataPlugin.html#getRequiredHooks">getRequiredHooks</a></li><li data-type='method'><a href="TradesDataPlugin.html#getRequiredModules">getRequiredModules</a></li><li data-type='method'><a href="TradesDataPlugin.html#getSymbol">getSymbol</a></li><li data-type='method'><a href="TradesDataPlugin.html#getTerminal">getTerminal</a></li><li data-type='method'><a href="TradesDataPlugin.html#isUnique">isUnique</a></li><li data-type='method'><a href="TradesDataPlugin.html#logDuration">logDuration</a></li><li data-type='method'><a href="TradesDataPlugin.html#on">on</a></li><li data-type='method'><a href="TradesDataPlugin.html#render">render</a></li></ul></li><li><a href="TradeSizeAlertsPlugin.html">TradeSizeAlertsPlugin</a><ul class='methods'><li data-type='method'><a href="TradeSizeAlertsPlugin.html#emit">emit</a></li><li data-type='method'><a href="TradeSizeAlertsPlugin.html#getColoredID">getColoredID</a></li><li data-type='method'><a href="TradeSizeAlertsPlugin.html#getHost">getHost</a></li><li data-type='method'><a href="TradeSizeAlertsPlugin.html#getID">getID</a></li><li data-type='method'><a href="TradeSizeAlertsPlugin.html#getProvidedHooks">getProvidedHooks</a></li><li data-type='method'><a href="TradeSizeAlertsPlugin.html#getRequiredHooks">getRequiredHooks</a></li><li data-type='method'><a href="TradeSizeAlertsPlugin.html#getRequiredModules">getRequiredModules</a></li><li data-type='method'><a href="TradeSizeAlertsPlugin.html#getSymbol">getSymbol</a></li><li data-type='method'><a href="TradeSizeAlertsPlugin.html#getTerminal">getTerminal</a></li><li data-type='method'><a href="TradeSizeAlertsPlugin.html#getTradeSizeAlertThreshold">getTradeSizeAlertThreshold</a></li><li data-type='method'><a href="TradeSizeAlertsPlugin.html#isUnique">isUnique</a></li><li data-type='method'><a href="TradeSizeAlertsPlugin.html#logDuration">logDuration</a></li><li data-type='method'><a href="TradeSizeAlertsPlugin.html#on">on</a></li><li data-type='method'><a href="TradeSizeAlertsPlugin.html#render">render</a></li><li data-type='method'><a href="TradeSizeAlertsPlugin.html#setTradeSizeAlertThreshold">setTradeSizeAlertThreshold</a></li></ul></li><li><a href="UtilitiesPlugin.html">UtilitiesPlugin</a><ul class='methods'><li data-type='method'><a href="UtilitiesPlugin.html#emit">emit</a></li><li data-type='method'><a href="UtilitiesPlugin.html#getColoredID">getColoredID</a></li><li data-type='method'><a href="UtilitiesPlugin.html#getHost">getHost</a></li><li data-type='method'><a href="UtilitiesPlugin.html#getID">getID</a></li><li data-type='method'><a href="UtilitiesPlugin.html#getProvidedHooks">getProvidedHooks</a></li><li data-type='method'><a href="UtilitiesPlugin.html#getRequiredHooks">getRequiredHooks</a></li><li data-type='method'><a href="UtilitiesPlugin.html#getRequiredModules">getRequiredModules</a></li><li data-type='method'><a href="UtilitiesPlugin.html#getSymbol">getSymbol</a></li><li data-type='method'><a href="UtilitiesPlugin.html#getTerminal">getTerminal</a></li><li data-type='method'><a href="UtilitiesPlugin.html#isUnique">isUnique</a></li><li data-type='method'><a href="UtilitiesPlugin.html#logDuration">logDuration</a></li><li data-type='method'><a href="UtilitiesPlugin.html#on">on</a></li><li data-type='method'><a href="UtilitiesPlugin.html#render">render</a></li></ul></li><li><a href="Widget.html">Widget</a><ul class='methods'><li data-type='method'><a href="Widget.html#emit">emit</a></li><li data-type='method'><a href="Widget.html#getColoredID">getColoredID</a></li><li data-type='method'><a href="Widget.html#getHost">getHost</a></li><li data-type='method'><a href="Widget.html#getID">getID</a></li><li data-type='method'><a href="Widget.html#getProvidedHooks">getProvidedHooks</a></li><li data-type='method'><a href="Widget.html#getRequiredHooks">getRequiredHooks</a></li><li data-type='method'><a href="Widget.html#getRequiredModules">getRequiredModules</a></li><li data-type='method'><a href="Widget.html#getSymbol">getSymbol</a></li><li data-type='method'><a href="Widget.html#getTerminal">getTerminal</a></li><li data-type='method'><a href="Widget.html#isUnique">isUnique</a></li><li data-type='method'><a href="Widget.html#logDuration">logDuration</a></li><li data-type='method'><a href="Widget.html#on">on</a></li><li data-type='method'><a href="Widget.html#render">render</a></li></ul></li><li><a href="WSConnectionPlugin.html">WSConnectionPlugin</a><ul class='methods'><li data-type='method'><a href="WSConnectionPlugin.html#emit">emit</a></li><li data-type='method'><a href="WSConnectionPlugin.html#getColoredID">getColoredID</a></li><li data-type='method'><a href="WSConnectionPlugin.html#getHost">getHost</a></li><li data-type='method'><a href="WSConnectionPlugin.html#getID">getID</a></li><li data-type='method'><a href="WSConnectionPlugin.html#getProvidedHooks">getProvidedHooks</a></li><li data-type='method'><a href="WSConnectionPlugin.html#getRequiredHooks">getRequiredHooks</a></li><li data-type='method'><a href="WSConnectionPlugin.html#getRequiredModules">getRequiredModules</a></li><li data-type='method'><a href="WSConnectionPlugin.html#getSymbol">getSymbol</a></li><li data-type='method'><a href="WSConnectionPlugin.html#getTerminal">getTerminal</a></li><li data-type='method'><a href="WSConnectionPlugin.html#isUnique">isUnique</a></li><li data-type='method'><a href="WSConnectionPlugin.html#logDuration">logDuration</a></li><li data-type='method'><a href="WSConnectionPlugin.html#on">on</a></li><li data-type='method'><a href="WSConnectionPlugin.html#render">render</a></li></ul></li></ul><h3>Modules</h3><ul><li><a href="module-Utility.html">Utility</a><ul class='methods'><li data-type='method'><a href="module-Utility.html#.measureDuration">measureDuration</a></li></ul></li></ul><h3>Events</h3><ul><li><a href="CandlesDataPlugin.html#~event:dataCandles">dataCandles</a></li><li><a href="LoggerPlugin.html#~event:terminalDebugLog">terminalDebugLog</a></li><li><a href="LoggerPlugin.html#~event:terminalDebugLogClearLastLine">terminalDebugLogClearLastLine</a></li><li><a href="LoggerPlugin.html#~event:terminalOutputClear">terminalOutputClear</a></li><li><a href="LoggerPlugin.html#~event:terminalOutputLog">terminalOutputLog</a></li><li><a href="MarginInfoDataPlugin.html#~event:dataMarginInfo">dataMarginInfo</a></li><li><a href="MarketInfoDataPlugin.html#~event:dataMarketInfo">dataMarketInfo</a></li><li><a href="ModuleHost.html#~event:hostBoot">hostBoot</a></li><li><a href="ModuleHost.html#~event:hostError">hostError</a></li><li><a href="NotificationsPlugin.html#~event:notificationsEnabledUpdated">notificationsEnabledUpdated</a></li><li><a href="NotificationsPlugin.html#~event:notify">notify</a></li><li><a href="NotificationsPlugin.html#~event:notifyError">notifyError</a></li><li><a href="NotificationsPlugin.html#~event:notifyImportant">notifyImportant</a></li><li><a href="NotificationsPlugin.html#~event:notifySuccess">notifySuccess</a></li><li><a href="OrderBooksDataPlugin.html#~event:dataOrderBook">dataOrderBook</a></li><li><a href="OrdersDataPlugin.html#~event:dataOrderClosed">dataOrderClosed</a></li><li><a href="OrdersDataPlugin.html#~event:dataOrderCreated">dataOrderCreated</a></li><li><a href="OrdersDataPlugin.html#~event:dataOrderSnapshot">dataOrderSnapshot</a></li><li><a href="OrdersDataPlugin.html#~event:dataOrderUpdated">dataOrderUpdated</a></li><li><a href="PositionsDataPlugin.html#~event:dataPositionClosed">dataPositionClosed</a></li><li><a href="PositionsDataPlugin.html#~event:dataPositionCreated">dataPositionCreated</a></li><li><a href="PositionsDataPlugin.html#~event:dataPositionSnapshot">dataPositionSnapshot</a></li><li><a href="PositionsDataPlugin.html#~event:dataPositionUpdated">dataPositionUpdated</a></li><li><a href="TradeGroupSizeAlertsPlugin.html#~event:groupSizeAlertThresholdUpdated">groupSizeAlertThresholdUpdated</a></li><li><a href="TradeGroupsPlugin.html#~event:buyTradeGroupUpdate">buyTradeGroupUpdate</a></li><li><a href="TradeGroupsPlugin.html#~event:sellTradeGroupUpdate">sellTradeGroupUpdate</a></li><li><a href="TradesDataPlugin.html#~event:dataAccountTradeEntry">dataAccountTradeEntry</a></li><li><a href="TradesDataPlugin.html#~event:dataAccountTradeUpdate">dataAccountTradeUpdate</a></li><li><a href="TradesDataPlugin.html#~event:dataTradeEntry">dataTradeEntry</a></li><li><a href="TradeSizeAlertsPlugin.html#~event:tradeSizeAlertThresholdUpdated">tradeSizeAlertThresholdUpdated</a></li><li><a href="WSConnectionPlugin.html#~event:wsAuthenticated">wsAuthenticated</a></li><li><a href="WSConnectionPlugin.html#~event:wsClosed">wsClosed</a></li><li><a href="WSConnectionPlugin.html#~event:wsError">wsError</a></li><li><a href="WSConnectionPlugin.html#~event:wsOpened">wsOpened</a></li></ul><h3><a href="global.html">Global</a></h3>
+</nav>
+
+<div id="main">
+    
+    <h1 class="page-title">terminal/index.js</h1>
+    
+
+    
+
+
+
+    
+    <section>
+        <article>
+            <pre class="prettyprint source linenums"><code>'use strict'
+
+const colors = require('colors')
+const _isFinite = require('lodash/isFinite')
+const _debounce = require('lodash/debounce')
+const moment = require('moment')
+const blessed = require('blessed')
+const columnify = require('columnify')
+const blessedContrib = require('blessed-contrib')
+const { RESTv2 } = require('bfx-api-node-rest')
+const { Order } = require('bfx-api-node-models')
+const { prepareAmount, preparePrice } = require('bfx-api-node-util')
+const yArgs = require('yargs/yargs')
+
+const genClientID = require('../util/gen_client_id')
+// const { TYPES } = require('./commands/prime')
+const commands = require('./commands')
+
+const StatusWidget = require('../widgets/status')
+const PositionWidget = require('../widgets/position')
+const OrderBookWidget = require('../widgets/order_book')
+const InternalLogWidget = require('../widgets/internal_log')
+const PublicTradeLogWidget = require('../widgets/public_trade_log')
+const LastTradeGroupWidget = require('../widgets/last_trade_group')
+const TerminalOutputWidget = require('../widgets/terminal_output')
+const ChartWidget = require('../widgets/chart')
+
+const CoreLoggerPlugin = require('../plugins/core/logger')
+const CoreUtilitiesPlugin = require('../plugins/core/utilities')
+const CoreSettingsPlugin = require('../plugins/core/settings')
+const CoreNotificationsPlugin = require('../plugins/core/notifications')
+const WSConnectionPlugin = require('../plugins/ws/connection')
+const MetaTradeGroupsPlugin = require('../plugins/meta/trade_groups')
+const DataMarketInfoPlugin = require('../plugins/data/market_info')
+const DataMarginInfoPlugin = require('../plugins/data/margin_info')
+const DataTradesPlugin = require('../plugins/data/trades')
+const DataPositionsPlugin = require('../plugins/data/positions')
+const DataOrderBooksPlugin = require('../plugins/data/order_books')
+const DataOrdersPlugin = require('../plugins/data/orders')
+const DataCandlesPlugin = require('../plugins/data/candles')
+const TradeSizeAlertsPlugin = require('../plugins/alerts/trade_size')
+const TradeGroupSizeAlertsPlugin = require('../plugins/alerts/trade_group_size')
+
+const ModuleHost = require('../module_host')
+
+const DEFAULT_LEFT_CHART_WINDOW = 180
+const DEFAULT_RIGHT_CHART_WINDOW = 30
+const DEFUALT_EMA_PERIOD = 30
+
+const AUTO_STATUS_BLINK_INTERVAL_MS = 0.5 * 1000
+const NEW_ORDER_HIGHLIGHT_PERIOD_MS = 1 * 1000
+const REFRESH_WAIT_MS = 2 * 1000
+
+const SCROLLABLE_ELM_OPTIONS = (styleOpts = {}) => ({
+  mouse: true,
+  scrollable: true,
+  scrollbar: {
+    ch: '|',
+    track: { bg: 'black' }
+  },
+  style: {
+    scrollbar: { fg: 'green' },
+    ...styleOpts
+  }
+})
+
+/**
+ * Core Terminal class hosting a set of plugin and widget modules which
+ * together make up the interactive UI. For now limited to a single symbol,
+ * but the utilized data plugins are multi-symbol.
+ */
+class Terminal extends ModuleHost {
+  constructor ({ symbol, apiKey, apiSecret }) {
+    super()
+
+    const self = this
+
+    this.symbol = symbol
+    this.candles = {} // mts: candle
+    this.startMTS = Date.now()
+    this.lastTradeAmount = 0
+    this.lastTradePrice = null
+    this.emaPeriod = DEFUALT_EMA_PERIOD
+    this.leftChartWindow = DEFAULT_LEFT_CHART_WINDOW
+    this.rightChartWindow = DEFAULT_RIGHT_CHART_WINDOW
+    this.notificationsEnabled = true
+    this.autoStatusBlinkInterval = null
+    this.skipNextOrderLogAutoUpdate = false
+    this.balancesVisible = true
+    this.quickOrderSize = 0
+    this.primes = []
+    this.smartBookOrder = null
+    this.smartAsk = null
+    this.smartBookOrderLocked = false // serves as mutex due to async order calls for
+    this.smartAskLocked = false // smart bid/ask in sync onRecvOrderBook
+    this.orderHistory = []
+    this.orderBook = null
+    this.verboseErrors = 0
+    this.credentials = { apiKey, apiSecret }
+    this.gid = genClientID() // shared between all orders
+    this.rest = new RESTv2({
+      transform: true,
+      apiKey: apiKey,
+      apiSecret: apiSecret
+    })
+
+    this.onRecvTrade = this.onRecvTrade.bind(this)
+    this.onRecvOrderBook = this.onRecvOrderBook.bind(this)
+    this.render = _debounce(this.render.bind(this), REFRESH_WAIT_MS)
+
+    this.screen = blessed.screen({
+      autoPadding: true,
+      dockBorders: true,
+      fullUnicode: true,
+      smartCSR: true
+    })
+
+    this.screen.enableInput()
+    this.screen.title = 'Bitfinex CLI Trading Terminal'
+    this.screen.key(['escape', 'q', 'C-c'], () => {
+      this.screen.destroy()
+      process.exit(0) // eslint-disable-line
+    })
+
+    this.screenGrid = new blessedContrib.grid({ // eslint-disable-line
+      rows: 20,
+      cols: 8,
+      screen: this.screen
+    })
+
+    this.host = new ModuleHost(this)
+    this.host.addModule(CoreLoggerPlugin)
+    this.host.addModule(CoreUtilitiesPlugin)
+    this.host.addModule(CoreSettingsPlugin)
+    this.host.addModule(CoreNotificationsPlugin)
+    this.host.addModule(WSConnectionPlugin)
+    this.host.addModule(DataMarginInfoPlugin)
+    this.host.addModule(DataMarketInfoPlugin)
+    this.host.addModule(DataTradesPlugin)
+    this.host.addModule(DataPositionsPlugin)
+    this.host.addModule(DataOrderBooksPlugin)
+    this.host.addModule(DataOrdersPlugin)
+    this.host.addModule(DataCandlesPlugin)
+    this.host.addModule(MetaTradeGroupsPlugin)
+    this.host.addModule(TradeSizeAlertsPlugin)
+    this.host.addModule(TradeGroupSizeAlertsPlugin)
+
+    this.host.addModule(PositionWidget, {
+      geo: { x: 4, y: 0, w: 4, h: 2 }
+    })
+
+    this.host.addModule(InternalLogWidget, {
+      geo: { x: 0, y: 0, w: 4, h: 2 }
+    })
+
+    this.host.addModule(PublicTradeLogWidget, {
+      geo: { x: 2, y: 2, w: 1, h: 9 }
+    })
+
+    this.host.addModule(OrderBookWidget, {
+      geo: { x: 3, y: 2, w: 2, h: 9 }
+    })
+
+    this.host.addModule(LastTradeGroupWidget, {
+      geo: { x: 0, y: 2, w: 2, h: 1 },
+      direction: 1
+    })
+
+    this.host.addModule(LastTradeGroupWidget, {
+      geo: { x: 0, y: 3, w: 2, h: 1 },
+      direction: -1
+    })
+
+    this.host.addModule(TerminalOutputWidget, {
+      geo: { x: 5, y: 2, w: 3, h: 10 }
+    })
+
+    this.host.addModule(StatusWidget, {
+      geo: { x: 0, y: 5, w: 1, h: 6 }
+    })
+
+    this.host.addModule(ChartWidget, {
+      tf: '1m',
+      window: 180,
+      emaPeriod: 50,
+      geo: { x: 0, y: 14, w: 5, h: 6 }
+    })
+
+    this.host.addModule(ChartWidget, {
+      tf: '1m',
+      window: 30,
+      emaPeriod: 20,
+      geo: { x: 5, y: 14, w: 3, h: 6 }
+    })
+
+    this.screenAutoStatus = this.screenGrid.set(4, 0, 1, 2, blessed.element, {
+      style: { border: { fg: 'gray' } },
+      label: 'Auto Status',
+      align: 'center',
+      valign: 'middle'
+    })
+
+    this.screenPrimeRulesBox = this.screenGrid.set(5, 1, 6, 1, blessed.box, {
+      label: 'Prime Rules',
+      style: { border: { fg: 'gray' } }
+    })
+
+    this.screenOrderLogBox = this.screenGrid.set(11, 0, 3, 5, blessed.element, {
+      label: 'Order Log',
+      ...SCROLLABLE_ELM_OPTIONS({ border: { fg: 'gray' } })
+    })
+
+    this.screenConsoleInputBox = this.screenGrid.set(12, 5, 2, 3, blessed.textarea, {
+      label: 'Console Input',
+      inputOnFocus: true,
+      mouse: true,
+      style: {
+        border: { fg: 'white' },
+        focus: {
+          border: { fg: 'green' }
+        }
+      }
+    })
+
+    this.screenConsoleInputBox.focus()
+
+    this.screenConsoleInputBox.key('enter', function () {
+      self.onSubmitConsoleInput(this.getValue())
+      this.clearValue()
+      self.screen.render()
+    })
+
+    // TODO: Refactor into modules
+    this.commands = commands.map(cmd => cmd(this, (...data) => {
+      this.emit('terminalOutputLog', { data })
+    }))
+
+    this.clearAutoStatus()
+
+    // Order log has relative timestamps that need to be updated
+    setInterval(() => {
+      if (this.skipNextOrderLogAutoUpdate) {
+        this.skipNextOrderLogAutoUpdate = false
+      } else {
+        this.updateOrderLog()
+      }
+    }, 1000)
+
+    // Prime rule list has expiry timestamps that need to be updated
+    setInterval(() => {
+      this.updatePrimeRuleDisplay()
+    }, 1000)
+
+    this.onBoot()
+  }
+
+  /**
+   * Calls host {@link ModuleHost#boot} method, and destroys the `blessed`
+   * screen followed by an error message on failure, due to `blessed` clearing
+   * the screen on unhandled errors.
+   */
+  onBoot () {
+    this.host.boot().catch((error) => {
+      this.screen.destroy()
+      console.error(error.stack)
+    })
+  }
+
+  getCredentials () {
+    return this.credentials
+  }
+
+  getWS () {
+    return this.ws
+  }
+
+  getREST () {
+    return this.rest
+  }
+
+  getScreen () {
+    return this.screen
+  }
+
+  getScreenGrid () {
+    return this.screenGrid
+  }
+
+  getConfigurableOptions () {
+    return {
+      'verbose-errors': {
+        description: 'If 1, stack traces are shown for errors',
+        get: () => this.verboseErrors ? 1 : 0,
+        set: v => { this.verboseErrors = !!v },
+        validate: v => v === 0 || v === 1,
+        transform: v => !!(+v),
+        choices: [0, 1],
+        type: 'number'
+      },
+
+      notify: {
+        description: 'If 1, desktop notifications are enabled',
+        get: () => this.notificationsEnabled ? 1 : 0,
+        set: this.setNotificationsEnabled.bind(this),
+        validate: v => v === 0 || v === 1,
+        transform: v => !!(+v),
+        choices: [0, 1],
+        type: 'number'
+      },
+
+      'quick-size': {
+        description: 'Quick order size, used as default in order commands',
+        get: () => this.quickOrderSize,
+        set: this.setQuickOrderSize.bind(this),
+        validate: v => _isFinite(+v),
+        transform: v => +v,
+        type: 'string'
+      }
+    }
+  }
+
+  /**
+   * Renders the `blessed` screen; debounced in constructor
+   */
+  render () {
+    this.screen.render()
+  }
+
+  setupPrime ({ type, threshold, amount, tif }) {
+    if (this.primes.find(p => p.type === type &amp;&amp; p.threshold === threshold)) {
+      throw new Error(
+        `Prime rule already exists for type ${type} with threshold ${threshold}`
+      )
+    }
+
+    this.primes.push({ type, threshold, amount, tif })
+    this.updatePrimeRuleDisplay()
+
+    if (this.primes.length === 1) {
+      this.setPrimedAutoStatus()
+    }
+  }
+
+  deletePrime (index) {
+    const rule = this.primes[index]
+
+    if (rule) {
+      const { type, threshold } = rule
+      this.primes.splice(index, 1)
+      this.logStar('Removed prime rule %d of type %s, %s', index, type, threshold)
+      this.updatePrimeRuleDisplay()
+
+      if (this.primes.length === 0) {
+        this.clearAutoStatus()
+      }
+      return true
+    } else {
+      this.l.error('No such prime rule, cannot remove: %d', index)
+      return false
+    }
+  }
+
+  getPrimeIDs () {
+    return Object.keys(this.primes).map(id => +id)
+  }
+
+  async setupSmartBookOrder (amount) {
+    if (this.smartBookOrder) {
+      throw new Error('A smart book order already exists')
+    } else {
+      this.smartBookOrder = {
+        order: null, // will be created on next book update
+        amount
+      }
+    }
+  }
+
+  getActiveOrderIDs () {
+    return this.orderHistory
+      .map((_, id) => id)
+      .filter(id => {
+        const o = this.orderHistory[id]
+        const { amount, status } = o
+
+        return (
+          (amount !== 0) &amp;&amp;
+          !/(canceled|executed)/.test((status || '').toLowerCase())
+        )
+      })
+  }
+
+  async cancelOrdersByID (ids) {
+    for (let i = 0; i &lt; ids.length; i += 1) {
+      if (!this.orderHistory[ids[i]]) {
+        throw new Error(`Unknown order, cannot cancel: ${ids[i]}`)
+      }
+    }
+
+    const orders = ids.map(id => this.orderHistory[id])
+
+    for (let i = 0; i &lt; orders.length; i += 1) {
+      const { id, amount, status } = orders[i]
+
+      if (amount === 0 || /(canceled|executed)/.test((status || ''))) {
+        throw new Error(`Order inactive, cannot cancel: ${id}`)
+      } else if (this.smartBookOrder &amp;&amp; this.smartBookOrder.order &amp;&amp; this.smartBookOrder.order.id === id) {
+        this.smartBookOrder = null // clear bid
+      }
+    }
+
+    return this.cancelOrders(orders)
+  }
+
+  getSymbol () {
+    return this.symbol
+  }
+
+  getCommands () {
+    return this.commands
+  }
+
+  async onSubmitConsoleInput (value) {
+    const input = value.trim()
+    this.logOutput(`> ${input.gray}`)
+
+    let y = yArgs(input)
+      .scriptName('')
+      .exitProcess(false)
+      .showHelpOnFail(false)
+      .help(false)
+      .version(false)
+      .fail((output, err) => {
+        throw (err || new Error(output))
+      })
+
+    this.commands.forEach(cmd => { y = cmd(y) })
+
+    // This is convoluted as yargs has no elegant mechanism for dynamic args
+    // parsing at runtime. By default help/output is logged to the console,
+    // which cannot be done here as we use blessed for UI.
+    //
+    // As such, auto-help (--help) support is disabled above, and the flag
+    // detected + converted to an error below, alongside generic failure
+    // messages handled by the .fail() block above.
+    //
+    // The help test must be in the catch block since yargs will fail parsing
+    // 'prime --help' for example (missing required args)
+    try {
+      const { argv } = y
+      const { _, help } = argv
+      const [parsedCommand] = _
+
+      if (help || parsedCommand === 'help') {
+        throw new Error() // help output shown in catch block if help flag
+      }
+    } catch (e) {
+      if (/help/.test(input)) {
+        y.showHelp((output) => {
+          output.split('\n').forEach(l => {
+            this.logOutput('%s', l)
+          })
+        })
+      } else {
+        (this.verboseErrors ? e.stack : e.message).split('\n').forEach(l => {
+          this.logOutput('%s'.red, l)
+        })
+      }
+    }
+  }
+
+  setQuickOrderSize (size) {
+    this.quickOrderSize = size
+  }
+
+  getQuickOrderSize () {
+    return this.quickOrderSize
+  }
+
+  setNotificationsEnabled (notify) {
+    if (notify === this.notificationsEnabled) {
+      return
+    }
+
+    this.notificationsEnabled = notify
+
+    if (notify) {
+      this.notifySuccess({
+        title: 'Notifications Enabled',
+        message: 'You will receive desktop notifications from now on'
+      })
+    }
+  }
+
+  async cancelOrders (orders) {
+    for (let i = 0; i &lt; orders.length; i += 1) { // verify payload is OK
+      if (!orders[i].id) {
+        throw new Error('Order lacking ID and CID, cannot cancel')
+      }
+    }
+
+    for (let i = 0; i &lt; orders.length; i += 1) {
+      orders[i].on('close', () => {
+        this.notifyImportant({
+          title: 'Canceled Order',
+          message: `Order ID ${orders[i].id}`
+        })
+      })
+    }
+
+    try {
+      this.ws.send([0, 'oc_multi', null, { id: orders.map(o => o.id) }])
+    } catch (e) { // socket may have closed
+      this.notifyError({
+        title: 'Failed to Cancel Orders',
+        message: e.message
+      })
+    }
+  }
+
+  async submitOrder (o) {
+    o.cid = genClientID()
+    o.gid = this.gid
+
+    // Listeners are registered here, and removed in the 'close' method
+    o.on('new', () => { this.updateOrderLog() })
+    o.on('update', () => { this.updateOrderLog() })
+    o.on('close', (order) => {
+      order.removeListeners()
+      this.updateOrderLog()
+    })
+
+    o.registerListeners(this.ws)
+    this.orderHistory.push(o)
+    this.updateOrderLog(this.orderHistory.length - 1)
+
+    this.logStar('Submitting order: %s', o.toString())
+    await o.submit()
+
+    this.notifySuccess({
+      title: 'Order Submitted',
+      message: o.toString()
+    })
+  }
+
+  updateOrderLog (newOrderIndex) {
+    this.screenOrderLogBox.setContent(this.orderHistory.map((o, i) => {
+      const active = o.amount !== 0 &amp;&amp; !/(canceled|executed)/.test((o.status || '').toLowerCase())
+      const aCL = o.amount &lt; 0 ? colors.red : colors.green
+      const inv = i === newOrderIndex || active ? colors.inverse : l => l
+      const {
+        type, amount, amountOrig, price, priceAvg, status, mtsCreate
+      } = o
+
+      return inv(aCL([
+        `ID: ${i}`,
+        (status || '').trim(),
+        type,
+        +prepareAmount(amount),
+        '@',
+        +preparePrice(priceAvg === 0 ? price : priceAvg),
+        `(${+prepareAmount(amountOrig)})`,
+        `[NV ${+prepareAmount(amountOrig * (priceAvg === 0 ? price : priceAvg))}]`,
+        colors.gray(moment(mtsCreate).fromNow())
+      ].join(' ')))
+    }).join('\n'))
+
+    if (_isFinite(newOrderIndex)) {
+      setTimeout(() => {
+        this.screenOrderLogBox.setLine(
+          newOrderIndex,
+          colors.inverse(this.screenOrderLogBox.getLine(newOrderIndex))
+        )
+        this.render()
+      }, NEW_ORDER_HIGHLIGHT_PERIOD_MS)
+
+      this.skipNextOrderLogAutoUpdate = true
+    }
+
+    this.screenOrderLogBox.scrollTo(this.screenOrderLogBox.getLines().length)
+    this.render()
+  }
+
+  updatePrimeRuleDisplay () {
+    const columns = columnify(this.primes.map(({ type, threshold, tif }, i) => {
+      const tCL = _isFinite(threshold)
+        ? (threshold &lt; 0 ? colors.red : colors.green)
+        : colors.blue
+
+      return {
+        id: i,
+        type: type.blue,
+        threshold: tCL(threshold),
+        expiry: colors.blue(_isFinite(tif) ? moment(+tif).fromNow() : '∞')
+      }
+    }), {
+      config: {
+        type: { align: 'right' },
+        threshold: { align: 'center' }
+      }
+    })
+
+    this.screenPrimeRulesBox.setContent(columns)
+  }
+
+  clearAutoStatus () {
+    this.screenAutoStatus.setContent('Idle')
+    this.screenAutoStatus.style.bg = 'transparent'
+    this.screenAutoStatus.style.fg = 'white'
+
+    if (this.autoStatusBlinkInterval) {
+      clearInterval(this.autoStatusBlinkInterval)
+      this.autoStatusBlinkInterval = null
+    }
+
+    this.render()
+  }
+
+  setPrimedAutoStatus () {
+    this.screenAutoStatus.setContent('PRIMED')
+    this.screenAutoStatus.style.bg = 'transparent'
+    this.screenAutoStatus.style.fg = 'white'
+
+    if (this.autoStatusBlinkInterval) {
+      clearInterval(this.autoStatusBlinkInterval)
+    }
+
+    this.autoStatusBlinkInterval = setInterval(() => {
+      if (this.screenAutoStatus.style.bg === 'transparent') {
+        this.screenAutoStatus.style.bg = 'yellow'
+        this.screenAutoStatus.style.fg = 'black'
+      } else {
+        this.screenAutoStatus.style.bg = 'transparent'
+        this.screenAutoStatus.style.fg = 'white'
+      }
+
+      this.render()
+    }, AUTO_STATUS_BLINK_INTERVAL_MS)
+  }
+
+  // TODO: Refactor out
+  async connect () {
+    // TODO: Move/extract/refactor
+    /*
+    this.ws.onOrderSnapshot({}, (snapshot) => {
+      this.orderHistory.push(...snapshot)
+      this.updateOrderLog()
+    })
+    */
+
+    // TODO: Refactor out
+    this.on('dataTradeEntry', ({ symbol, trade }) => {
+      if (symbol === this.symbol) {
+        this.onRecvTrade(trade)
+      }
+    })
+
+    // TODO: Refactor out
+    this.on('dataOrderBook', ({ orderBook }) => {
+      this.onRecvOrderBook(orderBook)
+    })
+  }
+
+  async evaluatePrimes (trade) {
+    /*
+    const { amount } = trade
+    let primeExecuted = false
+
+    for (let i = this.primes.length - 1; i >= 0; i -= 1) {
+      const prime = this.primes[i]
+      const { type, threshold, amount: primeAmount, tif } = prime
+
+      if (_isFinite(tif) &amp;&amp; tif &lt; Date.now()) {
+        this.logInfo('prime rule expired (%s threshold %s)', type, threshold)
+        this.primes.splice(i, 1)
+        this.updatePrimeRuleDisplay()
+        continue
+      }
+
+      if (
+        (type === TYPES.size &amp;&amp; (
+          (threshold > 0 &amp;&amp; amount >= threshold) ||
+          (threshold &lt; 0 &amp;&amp; amount &lt;= threshold)
+        )) ||
+        (type === TYPES['group-size'] &amp;&amp; (
+          (threshold > 0 &amp;&amp; this.buyGroupSize >= threshold) ||
+          (threshold &lt; 0 &amp;&amp; this.sellGroupSize &lt;= threshold)
+        ))
+      ) {
+        this.notifyImportant({
+          title: 'Prime Trigger',
+          message: [
+            'Rule (%s) triggered\n%f %s %f',
+            type,
+            amount,
+            threshold &lt; 0 ? '&lt;=' : '>=',
+            threshold
+          ]
+        })
+
+        await this.submitOrder(new Order({
+          symbol: this.symbol,
+          type: Order.type.MARKET,
+          amount: _isFinite(primeAmount)
+            ? primeAmount
+            : threshold &lt; 0
+              ? -1 * this.quickOrderSize
+              : this.quickOrderSize
+        }))
+
+        primeExecuted = true
+        break
+      }
+    }
+
+    // Clear primes if one is triggered; maybe refactor, but if a prime executes
+    // the reasoning behind the other primes is likely no longer valid. Very
+    // opinionated, maybe make optional.
+    if (primeExecuted) {
+      this.primes = []
+      this.updatePrimeRuleDisplay()
+      this.clearAutoStatus()
+    }
+    */
+  }
+
+  async onRecvOrderBook (book) {
+    this.orderBook = book
+
+    if (this.smartBookOrder &amp;&amp; !this.smartBookOrderLocked) {
+      const { amount } = this.smartBookOrder
+      const topBid = book.topBid()
+      const topAsk = book.topAsk()
+      const top = amount &lt; 0 ? topAsk : topBid
+      const desiredPrice = +preparePrice(
+        top + ((amount &lt; 0 ? -1 : 1) * (1 / (Math.pow(10, this.pricePrecision))))
+      )
+
+      if (!this.smartBookOrder.order) {
+        this.smartBookOrderLocked = true
+        const start = Date.now()
+        const order = new Order({
+          type: Order.type.LIMIT,
+          symbol: this.symbol,
+          price: desiredPrice,
+          postonly: true,
+          amount
+        })
+
+        order.on('close', (o) => {
+          const { amountOrig, priceAvg } = o
+
+          this.smartBookOrder = null
+          this.notifyImportant({
+            title: /canceled/.test((o.status || '').toLowerCase())
+              ? 'Smart Book Order Canceled'
+              : 'Smart Book Order Executed',
+
+            message: [
+              '%f @ %f', prepareAmount(amountOrig), preparePrice(priceAvg)
+            ]
+          })
+        })
+
+        this.smartBookOrder.order = order
+
+        try {
+          await this.submitOrder(order)
+          this.logStar('Submitted smart book order (in %dms)', Date.now() - start)
+        } catch (e) {
+          this.notifyError({
+            title: 'Error',
+            message: ['Failed to submit order: %s', e.message]
+          })
+        }
+
+        this.smartBookOrderLocked = false
+      } else {
+        const { order } = this.smartBookOrder
+        const { id, price } = order
+
+        // Note ID is required; received on confirmation notification
+        if (
+          id &amp;&amp; (
+            (amount > 0 &amp;&amp; price &lt; desiredPrice) ||
+            (amount &lt; 0 &amp;&amp; price > desiredPrice)
+          )
+        ) {
+          this.smartBookOrderLocked = true
+
+          try {
+            await order.update({ price: desiredPrice })
+          } catch (e) {
+            this.smartBookOrder = null // clear smart order
+            this.notifyError({
+              title: 'Error',
+              message: ['Failed to update order: %s', e.message]
+            })
+          }
+
+          this.smartBookOrderLocked = false
+          this.logInfo('Moved smart book order to %f', desiredPrice)
+        }
+      }
+    }
+  }
+
+  async onRecvTrade (trade) {
+    this.lastTradeAmount = trade.amount
+    this.lastTradePrice = trade.price
+
+    return this.evaluatePrimes(trade)
+  }
+}
+
+module.exports = Terminal
+</code></pre>
+        </article>
+    </section>
+
+
+
+
+    
+    
+</div>
+
+<br class="clear">
+
+<footer>
+    Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.6.4</a> on Tue Apr 07 2020 11:37:00 GMT+0700 (Indochina Time) using the <a href="https://github.com/clenemt/docdash">docdash</a> theme.
+</footer>
+
+<script>prettyPrint();</script>
+<script src="scripts/polyfill.js"></script>
+<script src="scripts/linenumber.js"></script>
+
+<script src="scripts/search.js" defer></script>
+
+
+
+</body>
+</html>
